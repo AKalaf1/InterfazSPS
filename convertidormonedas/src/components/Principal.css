@@ -1,0 +1,81 @@
+.principal-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.principal-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.principal-container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.principal-container li {
+  display: inline;
+}
+
+.principal-container button {
+  padding: 10px;
+  font-size: 18px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.principal-container button img {
+  width: 100px; /* Reducir el ancho de la imagen */
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.principal-container button:hover img {
+  transform: scale(1.1);
+}
+
+.principal-container button:focus {
+  outline: none;
+}
+
+.principal-container button:active img {
+  transform: scale(0.9);
+}
+
+/* Agregar espacio debajo del menú de navegación */
+nav {
+  margin-bottom: 20px;
+  background-color: #007bff;
+  padding: 10px 0;
+}
+
+/* Hacer más específica la regla para las imágenes dentro de los botones */
+.principal-container li img {
+  width: 180px !important;
+}
+.principal-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-image: url('C:\Users\Mañana_posx\OneDrive\Escritorio\InterfazSPS\convertidormonedas\src\components\frankfurter.png'); /* Ruta de tu imagen de fondo */
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el contenedor */
+  background-position: center; /* Centra la imagen */
+  height: 100vh; /* Ajusta la altura al 100% del viewport */
+}
+
+.principal-container img {
+  filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+}
+

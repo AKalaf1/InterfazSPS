@@ -1,0 +1,125 @@
+.series-de-tiempo-container {
+  max-width: 800px; /* Ajusta el ancho según sea necesario */
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  background-color: #555555;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.series-de-tiempo-container h2 {
+  font-size: 24px;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.series-de-tiempo-container label {
+  font-size: 26px;
+  margin-right: 20px;
+  color: white;
+}
+
+.series-de-tiempo-container input[type="date"],
+.series-de-tiempo-container input[type="text"] {
+  padding: 6px;
+  font-size: 14px;
+  width: 150px; /* Ajusta el tamaño según sea necesario */
+}
+
+.series-de-tiempo-container p {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.series-de-tiempo-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.series-de-tiempo-container th,
+.series-de-tiempo-container td {
+  border: 1px solid #ffffff;
+  padding: 10px;
+  text-align: left;
+}
+
+.series-de-tiempo-container th {
+  background-color: #333333;
+  color: white;
+}
+
+.series-de-tiempo-container ul {
+  list-style: none;
+  padding: 0;
+  color: white;
+}
+
+.series-de-tiempo-container li {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.center {
+  text-align: left;
+  margin-left: 20px;
+  color: white;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+input[type="date"],
+input[type="text"] {
+  padding: 8px;
+  margin-bottom: 10px;
+  width: 100%;
+  font-size: 16px;
+}
+
+label {
+  font-weight: bold;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  color: white;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+ul li strong {
+  font-size: 18px;
+}
+
+ul li ul {
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+ul li ul li {
+  font-size: 14px;
+}
+.series-de-tiempo-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  background-image: url('C:\Users\Mañana_posx\OneDrive\Escritorio\InterfazSPS\convertidormonedas\src\components\Series\1.gif'); /* Ruta de tu gif de fondo */
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Resto de tu CSS... */

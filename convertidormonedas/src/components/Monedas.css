@@ -1,0 +1,42 @@
+/* Monedas.css */
+.monedas-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.monedas-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.monedas-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.monedas-container th,
+.monedas-container td {
+  border: 1px solid #fff;
+  padding: 10px;
+  text-align: left;
+  color: #fff;
+}
+
+.monedas-container th {
+  background-color: #ffffff;
+}
+
+.monedas-container tbody tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.monedas-container tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}

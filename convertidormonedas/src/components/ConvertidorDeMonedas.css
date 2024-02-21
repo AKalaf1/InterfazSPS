@@ -1,0 +1,67 @@
+/* ConvertidorDeMonedas.css */
+
+.convertidor-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 88vh;
+  background-image: url('C:\Users\Mañana_posx\OneDrive\Escritorio\InterfazSPS\convertidormonedas\src\components\Convertidor\1.gif');
+  background-size: cover;
+  background-position: center;
+}
+
+.convertidor-center {
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #00000000;
+  border-radius: 10px;
+  background-color: rgba(85, 85, 85, 0);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+}
+
+.convertidor-center h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.convertidor-center input[type="number"],
+.convertidor-center select {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+  background-color: #868686;
+  color: black;
+  border: #000000;
+}
+
+.convertidor-center button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #3b3b3b;
+  color: #000000;
+  border: #000000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.convertidor-center button:hover {
+  background-color: #000000;
+}
+
+.convertidor-center p {
+  font-size: 18px;
+  margin-top: 20px;
+  color: #000000;
+  border: #000000;
+}
+select {
+  background-color: #868686;
+  color: black;
+  border: #000000;
+}
+input {
+  background-color: #868686;
+  color: rgba(0, 0, 0, 0.911);
+  border: #000000;
+}
