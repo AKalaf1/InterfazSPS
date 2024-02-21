@@ -30,7 +30,7 @@
   padding: 10px;
   font-size: 16px;
   margin-right: 10px;
-  background-color: #868686;
+  background-color: #f3f3f3;
   color: black;
   border: #000000;
 }
@@ -38,30 +38,30 @@
 .convertidor-center button {
   padding: 10px 20px;
   font-size: 16px;
-  background-color: #3b3b3b;
-  color: #000000;
+  background-color: #ffffff;
+  color: #ffffff;
   border: #000000;
   border-radius: 5px;
   cursor: pointer;
 }
 
 .convertidor-center button:hover {
-  background-color: #000000;
+  background-color: #ffffff;
 }
 
 .convertidor-center p {
   font-size: 18px;
   margin-top: 20px;
-  color: #000000;
+  color: #ffffff;
   border: #000000;
 }
 select {
-  background-color: #868686;
-  color: black;
+  background-color: #fffefe;
+  color: rgb(255, 255, 255);
   border: #000000;
 }
 input {
-  background-color: #868686;
-  color: rgba(0, 0, 0, 0.911);
+  background-color: #ffffff;
+  color: rgba(231, 231, 231, 0.911);
   border: #000000;
 }

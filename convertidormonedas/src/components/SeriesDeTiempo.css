@@ -121,5 +121,55 @@ ul li ul li {
   background-position: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+.series-de-tiempo-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  background-image: url('C:\Users\Mañana_posx\OneDrive\Escritorio\InterfazSPS\convertidormonedas\src\components\Series\1.gif');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.series-de-tiempo-container h2,
+.series-de-tiempo-container label,
+.series-de-tiempo-container input[type="date"],
+.series-de-tiempo-container input[type="text"],
+.series-de-tiempo-container p,
+.series-de-tiempo-container th,
+.series-de-tiempo-container td,
+.series-de-tiempo-container ul,
+.series-de-tiempo-container li,
+.center {
+  color: rgba(255, 255, 255, 0.7); /* Transparencia en blanco */
+}
+
+.series-de-tiempo-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.7); /* Transparencia en blanco */
+}
+
+.series-de-tiempo-container th,
+.series-de-tiempo-container td {
+  border: 1px solid rgba(255, 255, 255, 0.7); /* Transparencia en blanco */
+  padding: 10px;
+  text-align: left;
+}
+
+.series-de-tiempo-container th {
+  background-color: rgba(51, 51, 51, 0); /* Transparencia en gris oscuro */
+}
+
+.series-de-tiempo-container ul li {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+/* Resto de tu CSS... */
+
 
 /* Resto de tu CSS... */
